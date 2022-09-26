@@ -30,3 +30,23 @@ print('\033[1;31;44mOlá mundo!\033[m')
 print('\033[1;31;45mOlá mundo!\033[m')
 print('\033[1;31;46mOlá mundo!\033[m')
 print('\033[1;31;47mOlá mundo!\033[m')
+
+# Forma de usar cores de uma forma mais fácil:
+cores = {'limpa':'\033[m',
+         'vermelho':'\033[31m',
+         'verde':'\033[32m',
+         'amarelo':'\033[33m',
+         'azul':'\033[34m',
+         'roxo':'\033[35m',
+         'ciano':'\033[36m',
+         'cinza':'\033[37m',
+         'pretoebranco':'\033[7;30m'}
+
+print(cores['vermelho'],'Olá mundo!',cores['limpa'])
+print(cores['verde'],'Olá mundo!',cores['limpa'])
+print(cores['amarelo'],'Olá mundo!',cores['limpa'])
+print(cores['azul'],'Olá mundo!',cores['limpa'])
+print(cores['roxo'],'Olá mundo!',cores['limpa'])
+print(cores['ciano'],'Olá mundo!',cores['limpa'])
+print(cores['cinza'],'Olá mundo!',cores['limpa'])
+print(cores['pretoebranco'],'Olá mundo!',cores['limpa'])
